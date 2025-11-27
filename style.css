@@ -175,7 +175,7 @@ nav ul li a:hover{
     justify-content: space-around;
     display: flex;
     align-items: flex-start;
-    width: 1000px;
+    width: 600px;
     grid-template-columns: repeat(4);
     gap: 20px;
 
@@ -185,7 +185,7 @@ nav ul li a:hover{
     padding: 10px;
     gap: 20px;
     grid-template-columns: repeat(4,1fr);
-    display: ;
+    display:block ;
 }
 .product-info{
     margin-top: 10px;
@@ -196,7 +196,7 @@ nav ul li a:hover{
     height: auto;
     overflow: hidden;
     object-fit: cover;
-    
+    margin-bottom:20px
     
     
 }
@@ -240,4 +240,5 @@ nav ul li a:hover{
     font-weight: bold;
     color:black;
     margin-left: 5%;
+
 }
