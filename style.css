@@ -178,6 +178,7 @@ nav ul li a:hover{
     width: 600px;
     grid-template-columns: repeat(4);
     gap: 20px;
+    flex-direction:column
 
 }
 .product-card {
@@ -185,7 +186,7 @@ nav ul li a:hover{
     padding: 10px;
     gap: 20px;
     grid-template-columns: repeat(4,1fr);
-    display:block ;
+    display:flex;
 }
 .product-info{
     margin-top: 10px;
@@ -242,3 +243,4 @@ nav ul li a:hover{
     margin-left: 5%;
 
 }
+
