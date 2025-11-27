@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.container{
+    max-width: 100px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color:#444;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4);
+    gap:20px;
+ 
+    @media (max-width:800px) {
+        .product-grid{grid-template-columns:repeat(3, 1fr) ;
+        }  
+    }
+     
+    @media (max-width:500px) {
+        .product-grid{grid-template-columns:repeat(2, 1fr) ;
+        }  
+    }
+    @media (max-width:200px) {
+        .product-grid{grid-template-columns: 1fr;
+        }  
+    }
+    .product-card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align:center;
+        padding:15px;
+        transition: transform 0.3s ease;
+
+    }
+    .product-card:hover {
+        transition: translateY(-5px);
+    }
+    .product-grid img{
+        width: 20%;
+        height: auto;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .product-details {
+        padding: 10px;
+    }
+    .product-details h3{
+        margin: 0 0 5px;
+        font-size: 1.2em;
+    }
+    .price{
+        font-size: 1.1em;
+        color: #007bff;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .acheter-button{
+        display: inline-block;
+        background-color: #25d366;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 50px;
+        transition: background-color 0.3s ease;
+    }
+    .acheter-button:hover{
+        background-color: #128c7e;
+    }
+
+
+
+    <div class="container">
+        <h1> Parfums</h1>
+        <div class="product-grid">
+    
+            <div class="product-card">
+                <img src="#" alt="Musuf">
+                <div class="product-details">
+                    <h3>Musuf</h3>
+                    <p class="price">2500f</p>
+                    <button> <a href="https://wa.me/+22946504760? texte=Bonjour;je suis intéressé par le prouit 1."> Achéter </a>  </button>
+                </div>
+            </div>
+    
+            <div class="product-grid">
+    
+                <div class="product-card">
+                    <img src="#" alt="Musuf">
+                    <div class="product-details">
+                        <h3>hayati</h3>
+                        <p class="price">3500f</p>
+                        <button> <a href="https://wa.me/+22946504760? texte=Bonjour;je suis intéressé par le prouit 1."> Achéter </a>  </button>
+                    </div>
+                </div>
+    
+                <div class="produitc-grid">
+    
+                    <div class="product-card">
+                        <img src="#" alt="Musuf">
+                        <div class="product-details">
+                            <h3>Musuf</h3>
+                            <p class="price">400f</p>
+                            <button> <a href="https://wa.me/+22946504760? texte=Bonjour;je suis intéressé par le prouit 1."> Achéter </a>  </button>
+
+                        </div>
+                    </div>
+    
+                    <div class="product-grid">
+    
+                        <div class="product-card">
+                            <img src="#" alt="Musuf">
+                            <div class="product-details">
+                                <h3>Musuf</h3>
+                                <p class="price">5000f</p>
+                                
+                                 <button> <a href="https://wa.me/+22946504760? texte=Bonjour;je suis intéressé par le prouit 1."> Achéter </a>  </button>
+
+                            </div>
+                        </div>
